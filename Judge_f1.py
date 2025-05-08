@@ -18,6 +18,13 @@ def process_line(line, label):
         print(line)
         return 0
 
+def process_line_llm(line, label):
+    line = line.strip()  # Remove any leading/trailing whitespace
+    if 'support' in line or 'Support' in line:
+        return 1
+    else:
+        return 0
+
 
 def process_file(file_path, labels):
     results = []
@@ -129,7 +136,7 @@ for item in raw_data:
     label.append(int(item['label'] == 1))
 
 
-prediction = process_file(prediction_path, label)
+prediction = process_file_llm(prediction_path, label)
 
 
 accuracy = sum([int(label[i] == prediction[i]) for i in range(len(label))])/len(label)
