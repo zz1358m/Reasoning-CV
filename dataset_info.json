@@ -1,0 +1,25 @@
+{
+  "Claim-reason-4o-wash-nei": {
+    "file_name": "trainingset/Training_claim_reason_alpaca_4o_wash_nei.json"
+  },
+  "Claim-reason-4o-guide-merge-nei-r1": {
+    "file_name": "trainingset/Training_claim_reason_guide_alpaca_merge_nei_r1.json",
+    "ranking": true,
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  },
+  "Claim-reason-4o-guide-merge-nei-r2": {
+    "file_name": "trainingset/Training_claim_reason_guide_alpaca_merge_nei_r2.json",
+    "ranking": true,
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  }
+}
