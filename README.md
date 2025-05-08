@@ -5,7 +5,7 @@ Verification
 
 ### Introduction:
 
-This repository includes ``training data``, ``testing data``, ``training scripts``, and ``testing scripts``. First, unzip the zip files to obtain complete data.
+This repository includes ``training data``, ``testing data``, ``training scripts``, ``testing scripts``, and ``testing resultss``. First, unzip the zip files to obtain complete data.
 
 
 ### Training Data:
@@ -24,3 +24,7 @@ Refer to ``sft-lora.sh``, ``sft-lora-dpo-stage3-guide.sh``, ``sft-lora-dpo-stage
 
 For evaluation, run ``vllm-evaluate.py`` first for vericities with different LLMs, then run ``Judge_f1.py`` for F1
 scores.
+
+### Testing Results:
+
+``\testset`` includes report results on some datasets. We will publish our LLMs on Huggingface afterward, and you can now run ``Judge_f1.py`` to get the F1 scores for these results.
