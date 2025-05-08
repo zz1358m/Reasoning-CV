@@ -5,7 +5,7 @@ Verification
 
 ### Introduction:
 
-This repository includes ``training data``, ``testing data``, ``training scripts``, and ``testing scripts``. First, unzip the zip file to obtain complete data.
+This repository includes ``training data``, ``testing data``, ``training scripts``, and ``testing scripts``. First, unzip the zip files to obtain complete data.
 
 
 ### Training Data:
