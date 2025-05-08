@@ -44,7 +44,7 @@ Claim: {data[now]['claim']}
             prompt = output.prompt
             generated_text = output.outputs[0].text
             match = re.findall(r'\{([^{}]*)\}', generated_text)
-            with open(f'{file_name}-llama3-8b-nei-guide-r3.txt', 'a') as file:
+            with open(f'{file_name}-llama3-8b-nei-{model_name}.txt', 'a') as file:
                 # Append new content to the file
                 file.write(f'{match}\n')
     for file_name in ['Healthver_test','Open_Healthver_test', 'Scifact_dev','Scifact_train', 'VitaminC_dev','VitaminC_test']:
@@ -83,7 +83,7 @@ Claim: {data[now]['claim']}
             prompt = output.prompt
             generated_text = output.outputs[0].text
             match = re.findall(r'\{([^{}]*)\}', generated_text)
-            with open(f'{file_name}-llama3-8b-nei-guide-r3.txt', 'a') as file:
+            with open(f'{file_name}-llama3-8b-nei-{model_name}.txt', 'a') as file:
                 # Append new content to the file
                 file.write(f'{match}\n')
 
@@ -123,6 +123,6 @@ Claim: {data[now]['claim']}
             prompt = output.prompt
             generated_text = output.outputs[0].text
             match = re.findall(r'\{([^{}]*)\}', generated_text)
-            with open(f'{file_name}-llama3-8b-wo-nei-guide-r2.txt', 'a') as file:
+            with open(f'{file_name}-llama3-8b-wo-nei-{model_name}.txt', 'a') as file:
                 # Append new content to the file
                 file.write(f'{match}\n')
