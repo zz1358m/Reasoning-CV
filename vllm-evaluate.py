@@ -5,7 +5,7 @@ from vllm import LLM, SamplingParams
 
 if __name__ == "__main__":
     model_name = 'guide-r2'
-    model_path = f"********************/reasoner-{model_name}"
+    model_path = f"************************************/reasoner-{model_name}"
     vllm_model = LLM(model=model_path, gpu_memory_utilization=0.90, max_model_len=4000, max_num_seqs=64)
     sampling_params = SamplingParams(temperature=0., top_p=1., max_tokens=4000)
     for file_name in ['FEVEROUS','HOVER','Open_FEVEROUS','Open_HOVER','LLM-AggreFact_test']:

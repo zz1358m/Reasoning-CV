@@ -14,7 +14,7 @@ Instructions:
 4. Finally, conclude with either "support" or "refute" enclosed in a pair of curly braces, noting the overall judgment regarding the claim.
 '''
 if __name__ == "__main__":
-    model_path = f"********************/reasoner-guide-r1"
+    model_path = f"************************************/reasoner-guide-r1"
     vllm_model = LLM(model=model_path, gpu_memory_utilization=0.90, max_model_len=4000, max_num_seqs=64)
     sampling_params = SamplingParams(temperature=0.75, top_p=0.95, max_tokens=4000)
     file_path1 = 'trainingset/Feverous_train.json'

@@ -1,7 +1,7 @@
 CUDA_VISIBLE_DEVICES=0 llamafactory-cli train \
     --stage dpo \
     --do_train True \
-    --model_name_or_path "*****************************/reasoner-sft" \
+    --model_name_or_path "************************************/reasoner-sft" \
     --preprocessing_num_workers 16 \
     --finetuning_type lora \
     --dataset Claim-reason-4o-guide-merge-nei-r1 \
