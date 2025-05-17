@@ -31,4 +31,4 @@ scores.
 
 ### Fine-tuned LLMs
 
-See \url{https://huggingface.co/zz1358m/Reasoning-CV} to download LLMs for CoT-Verify and Decompose.
+See https://huggingface.co/zz1358m/Reasoning-CV to download LLMs for CoT-Verify and Decompose.
