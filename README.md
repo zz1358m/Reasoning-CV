@@ -28,3 +28,7 @@ scores.
 ### Testing Results:
 
 ``\testset`` includes report results on some datasets. We will publish our LLMs on Huggingface afterward, and you can now run ``Judge_f1.py`` to get the F1 scores for these results.
+
+### Fine-tuned LLMs
+
+See \url{https://huggingface.co/zz1358m/Reasoning-CV} to download LLMs for CoT-Verify and Decompose.
