@@ -56,7 +56,7 @@ The ground truth is
 
 ---
 
-Answer: support. You mush generate results that match the ground truth.
+Answer: support. You must generate results that match the ground truth.
 
 <|eot_id|><|start_header_id|>assistant<|end_header_id|>
 
@@ -81,7 +81,7 @@ The ground truth is
 
 ---
 
-Answer: refute. You mush generate results that match the ground truth.
+Answer: refute. You must generate results that match the ground truth.
 
 <|eot_id|><|start_header_id|>assistant<|end_header_id|>
 
@@ -178,7 +178,7 @@ The ground truth is
 
 ---
 
-Answer: support. You mush generate results that match the ground truth.
+Answer: support. You must generate results that match the ground truth.
 
 <|eot_id|><|start_header_id|>assistant<|end_header_id|>
 
@@ -203,7 +203,7 @@ The ground truth is
 
 ---
 
-Answer: refute. You mush generate results that match the ground truth.
+Answer: refute. You must generate results that match the ground truth.
 
 <|eot_id|><|start_header_id|>assistant<|end_header_id|>
 
@@ -228,7 +228,7 @@ The ground truth is
 
 ---
 
-Answer: not enough information. You mush generate results that match the ground truth.
+Answer: not enough information. You must generate results that match the ground truth.
 
 <|eot_id|><|start_header_id|>assistant<|end_header_id|>
 
