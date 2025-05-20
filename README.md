@@ -3,6 +3,8 @@
 Code and datasets for a paper: Reasoning-CV: Fine-tuning Powerful Reasoning LLMs for Knowledge-Assisted Claim
 Verification
 
+Arxiv: https://arxiv.org/pdf/2505.12348
+
 ### Introduction:
 
 This repository includes ``training data``, ``testing data``, ``training scripts``, ``testing scripts``, and ``testing resultss``. First, unzip the zip files to obtain complete data.
